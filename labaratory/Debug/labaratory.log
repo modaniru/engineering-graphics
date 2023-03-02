@@ -1,0 +1,9 @@
+﻿  labaratory.cpp
+C:\src\labaratory\labaratory\labaratory.cpp(32,30): warning C4305: аргумент: усечение из "double" в "GLfloat"
+labaratory.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glBegin@4 в функции _main.
+labaratory.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glClear@4 в функции _main.
+labaratory.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glColor3f@12 в функции _main.
+labaratory.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glEnd@0 в функции _main.
+labaratory.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glPolygonMode@8 в функции _main.
+labaratory.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__glVertex2f@8 в функции _main.
+C:\src\labaratory\Debug\labaratory.exe : fatal error LNK1120: неразрешенных внешних элементов: 6

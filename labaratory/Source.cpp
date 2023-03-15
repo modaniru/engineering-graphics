@@ -24,25 +24,23 @@ int main(void)
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
 
-        glPointSize(1);
-        glBegin(GL_POINTS);
+        glBegin(GL_TRIANGLE_STRIP);
 
-        for (float x = -1.0f; x < 1.0f; x += 0.1f) {
-            for (float y = -1.0f; y < 1.0f; y += 0.1f) {
-                glVertex2f(x, y);
-                glColor3f(1.f, 1.f, 1.f);
-            }
-        }
-
+        glColor3f(0.5, 0.2, 0.9);
+        glVertex2f(-0.5, -0.5);
+        glVertex2f(-0.5, 0.5);
+        glVertex2f(0.5, -0.5);
+        glColor3f(0.5, 0.9, 0.2);
+        glVertex2f(0.5, 0.5);
         glEnd();
 
         glBegin(GL_TRIANGLES);
-            glColor3f(0.98, 0.f, 0.48);
-            glVertex2f(-0.5, -0.5);
-            glColor3f(0, 0.94, 0.99);
-            glVertex2f(0.5, -0.5);
-            glColor3f(1, 1, 1);
-            glVertex2f(0, 0.5);
+        glColor3f(0.9, 0.1, 0.4);
+        glVertex2f(-0.6, 0.5);
+        glVertex2f(0.6, 0.5);
+        glVertex2f(0, 0.8);
+
+
         glEnd();
 
 

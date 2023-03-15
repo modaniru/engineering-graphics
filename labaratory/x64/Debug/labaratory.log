@@ -1,4 +1,8 @@
 ﻿  Source.cpp
-C:\src\labaratory\labaratory\Source.cpp(41,34): warning C4305: аргумент: усечение из "double" в "GLfloat"
-C:\src\labaratory\labaratory\Source.cpp(43,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\src\labaratory\labaratory\Source.cpp(29,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\src\labaratory\labaratory\Source.cpp(33,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\src\labaratory\labaratory\Source.cpp(38,32): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\src\labaratory\labaratory\Source.cpp(39,29): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\src\labaratory\labaratory\Source.cpp(40,28): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\src\labaratory\labaratory\Source.cpp(41,26): warning C4305: аргумент: усечение из "double" в "GLfloat"
   labaratory.vcxproj -> C:\src\labaratory\x64\Debug\labaratory.exe
